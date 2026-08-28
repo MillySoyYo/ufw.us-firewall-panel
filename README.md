@@ -50,6 +50,7 @@ Main Menu
 ```
 Main menu for managing Ufw
 Firewall Rules
+
 bash
 ┌────────────────────────────────────────┐
 │ ====================================== │
@@ -74,6 +75,7 @@ bash
 ```
 Shows current firewall status
 Add Port Rule
+
 bash
 ┌────────────────────────────────────────┐
 │ ====================================== │
