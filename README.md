@@ -78,13 +78,15 @@ Add Port Rule
 ```bash
 ┌────────────────────────────────────────┐
 │ ====================================== │
-│          Delete Port Rule              │
+│            Add Port Rule               │
 │ ====================================== │
 │                                        │
 │ 0. Back                                │
 │                                        │
 │ WARNING:                               │
-│ Deleting rules may affect access.      │
+│ A large port range may open many ports.│
+│ Only use a range when you fully        │
+│ understand the security impact.        │
 │                                        │
 │ Enter Port or Port Range: 443          │
 │                                        │
@@ -94,18 +96,29 @@ Add Port Rule
 │ 2. UDP                                 │
 │ 0. Back                                │
 │                                        │
+│ Choose option [0-2]: 1                 │
+│                                        │
 │ Port: 443                              │
-│ Protocol: UDP                          │
+│ Protocol: TCP                          │
 │                                        │
-│ Confirm deletion? (y/N): y             │
+│ WARNING:                               │
+│ Changing firewall rules may affect     │
+│ server access.                         │
 │                                        │
-│ Rule deleted successfully.             │
+│ Command action: ufw allow 443/tcp      │
+│                                        │
+│ Proceed with adding rule? (y/N): y     │
+│                                        │
+│ Executing command: ufw allow 443/tcp   │
+│                                        │
+│ Command executed successfully.         │
+│ Rule added                             │
 │                                        │
 │ Press Enter to return...               │
 │                                        │
 └────────────────────────────────────────┘
-Same interface as Add Port Rule.
-Used to remove existing firewall rules
+Add TCP or UDP port rules.
+Used to allow new firewall rules
 ```
 ```bash
 ┌────────────────────────────────────────┐
