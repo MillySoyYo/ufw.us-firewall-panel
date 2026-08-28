@@ -30,6 +30,7 @@ Port range support
 Manage UFW rules with a simple panel
 
 ## Panel Preview
+bash
 Main Menu
 ┌────────────────────────────────────────┐
 │ ====================================== │
@@ -46,9 +47,10 @@ Main Menu
 │ Enter your choice [1-4]:               │
 │                                        │
 └────────────────────────────────────────┘
+```
 Main menu for managing Ufw
 Firewall Rules
-
+bash
 ┌────────────────────────────────────────┐
 │ ====================================== │
 │       Live UFW Firewall Rules          │
@@ -69,9 +71,10 @@ Firewall Rules
 │ Press Enter to return...               │
 │                                        │
 └────────────────────────────────────────┘
+```
 Shows current firewall status
 Add Port Rule
-
+bash
 ┌────────────────────────────────────────┐
 │ ====================================== │
 │            Add Port Rule               │
@@ -95,5 +98,6 @@ Add Port Rule
 │ Choose option [0-2]:                   │
 │                                        │
 └────────────────────────────────────────┘
+```
 Add TCP or UDP port rules
 Delete Port Rule uses the same interface
