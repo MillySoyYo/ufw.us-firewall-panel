@@ -75,21 +75,18 @@ Firewall Rules
 Shows current firewall status
 Add Port Rule
 ```
-
 ```bash
 ┌────────────────────────────────────────┐
 │ ====================================== │
-│            Add Port Rule               │
+│          Delete Port Rule              │
 │ ====================================== │
 │                                        │
 │ 0. Back                                │
 │                                        │
 │ WARNING:                               │
-│ A large port range may open many ports.│
-│ Only use a range when you understand   │
-│ the security impact.                   │
+│ Deleting rules may affect access.      │
 │                                        │
-│ Enter Port or Port Range:              │
+│ Enter Port or Port Range: 443          │
 │                                        │
 │ Select Protocol:                       │
 │                                        │
@@ -97,9 +94,49 @@ Add Port Rule
 │ 2. UDP                                 │
 │ 0. Back                                │
 │                                        │
-│ Choose option [0-2]:                   │
+│ Port: 443                              │
+│ Protocol: UDP                          │
+│                                        │
+│ Confirm deletion? (y/N): y             │
+│                                        │
+│ Rule deleted successfully.             │
+│                                        │
+│ Press Enter to return...               │
 │                                        │
 └────────────────────────────────────────┘
-Add TCP or UDP port rules
-Delete Port Rule uses the same interface
+Same interface as Add Port Rule.
+Used to remove existing firewall rules
 ```
+```bash
+┌────────────────────────────────────────┐
+│ ====================================== │
+│          Delete Port Rule              │
+│ ====================================== │
+│                                        │
+│ 0. Back                                │
+│                                        │
+│ WARNING:                               │
+│ Deleting rules may affect access.      │
+│                                        │
+│ Enter Port or Port Range: 443          │
+│                                        │
+│ Select Protocol:                       │
+│                                        │
+│ 1. TCP                                 │
+│ 2. UDP                                 │
+│ 0. Back                                │
+│                                        │
+│ Port: 443                              │
+│ Protocol: UDP                          │
+│                                        │
+│ Confirm deletion? (y/N): y             │
+│                                        │
+│ Rule deleted successfully.             │
+│                                        │
+│ Press Enter to return...               │
+│                                        │
+└────────────────────────────────────────┘
+Same interface as Add Port Rule.
+Used to remove existing firewall rules
+```
+
