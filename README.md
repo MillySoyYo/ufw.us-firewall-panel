@@ -76,7 +76,7 @@ Shows current firewall status
 Add Port Rule
 ```
 
-``bash
+```bash
 ┌────────────────────────────────────────┐
 │ ====================================== │
 │            Add Port Rule               │
