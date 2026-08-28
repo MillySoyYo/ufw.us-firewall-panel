@@ -28,3 +28,72 @@ TCP/UDP support
 Port range support  
 
 Manage UFW rules with a simple panel
+
+## Panel Preview
+Main Menu
+┌────────────────────────────────────────┐
+│ ====================================== │
+│     UFW Firewall Management Panel      │
+│ ====================================== │
+│                                        │
+│ Type ufw.us to open this firewall panel│
+│                                        │
+│ 1. View Firewall Rules                 │
+│ 2. Add Port Rule                       │
+│ 3. Delete Port Rule                    │
+│ 4. Exit Panel                          │
+│                                        │
+│ Enter your choice [1-4]:               │
+│                                        │
+└────────────────────────────────────────┘
+Main menu for managing Ufw
+Firewall Rules
+
+┌────────────────────────────────────────┐
+│ ====================================== │
+│       Live UFW Firewall Rules          │
+│ ====================================== │
+│                                        │
+│ Status: active                         │
+│ Logging: on (low)                      │
+│                                        │
+│ Default:                               │
+│ deny (incoming)                        │
+│ allow (outgoing)                       │
+│                                        │
+│ To              Action                 │
+│ --              ------                 │
+│ 22/tcp          ALLOW IN               │
+│ 443/udp         ALLOW IN               │
+│                                        │
+│ Press Enter to return...               │
+│                                        │
+└────────────────────────────────────────┘
+Shows current firewall status
+Add Port Rule
+
+┌────────────────────────────────────────┐
+│ ====================================== │
+│            Add Port Rule               │
+│ ====================================== │
+│                                        │
+│ 0. Back                                │
+│                                        │
+│ WARNING:                               │
+│ A large port range may open many ports.│
+│ Only use a range when you understand   │
+│ the security impact.                   │
+│                                        │
+│ Enter Port or Port Range:              │
+│                                        │
+│ Select Protocol:                       │
+│                                        │
+│ 1. TCP                                 │
+│ 2. UDP                                 │
+│ 0. Back                                │
+│                                        │
+│ Choose option [0-2]:                   │
+│                                        │
+└────────────────────────────────────────┘
+Add TCP or UDP port rules
+Delete Port Rule uses the same interface
