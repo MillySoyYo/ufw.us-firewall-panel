@@ -47,9 +47,9 @@ Main Menu
 │ Enter your choice [1-4]:               │
 │                                        │
 └────────────────────────────────────────┘
-```
 Main menu for managing Ufw
 Firewall Rules
+```
 
 bash
 ┌────────────────────────────────────────┐
@@ -72,9 +72,9 @@ bash
 │ Press Enter to return...               │
 │                                        │
 └────────────────────────────────────────┘
-```
 Shows current firewall status
 Add Port Rule
+```
 
 bash
 ┌────────────────────────────────────────┐
@@ -100,6 +100,6 @@ bash
 │ Choose option [0-2]:                   │
 │                                        │
 └────────────────────────────────────────┘
-```
 Add TCP or UDP port rules
 Delete Port Rule uses the same interface
+```
